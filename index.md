@@ -20,7 +20,7 @@ The project benchmarks a lightweight Convolutional Neural Network, **MobileNetV2
 - [GitHub Page](https://Bhargav-Das-12.github.io/Scene_Classification/) - GitHub Page for this Project.
 - **Video Demonstration:**
 <br>
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/Jz3pot37TLA?si=ny3WboK9Q2OmzGEG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/Jz3pot37TLA?si=ny3WboK9Q2OmzGEG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
