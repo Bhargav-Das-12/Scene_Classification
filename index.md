@@ -16,7 +16,6 @@ The project benchmarks a lightweight Convolutional Neural Network, **MobileNetV2
 ## Project Resources
 
 - **[Read the Full Project Report Here](./project_report.md)** - Detailed methodology, results, and pipeline.
-- **Progress Report:** [Scene Classification Progress Report](./Scene_Classification_Progress_Report.pdf)
 - **Progress Report – Notion:** [View Progress Report on Notion](https://app.notion.com/p/Scene-Classification-38594c0acda780a2afbfce1794ce6a36?source=copy_link)
 - **[View Source Code on GitHub](https://github.com/Bhargav-Das-12/Scene_Classification)** - Access the complete repository, scripts, and datasets.
 - **Video Demonstration:**
