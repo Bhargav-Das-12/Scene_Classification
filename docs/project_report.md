@@ -98,11 +98,11 @@ The best-performing checkpoint was therefore used rather than simply using the f
 
 #### MobileNetV2
 
-![MobileNetV2 Training Results](results/mobile_net_main.png)
+![MobileNetV2 Training Results](/results/mobile_net_main.png)
 
 #### DINOv2
 
-![DINOv2 Training Results](results/dinov2_main.png)
+![DINOv2 Training Results](/results/dinov2_main.png)
 
 The training curves show steady improvement in MobileNetV2 training accuracy over the 12 epochs, while DINOv2 shows rapid early validation improvement followed by increasing validation loss, supporting the use of early stopping.
 
