@@ -308,7 +308,6 @@ Scene_Classification/
 │   └── package.json
 │
 ├── notebooks/
-│   ├── dataset_modification.ipynb
 │   ├── MobileNet_model_training-final.ipynb
 │   └── DINOV2_model_training.ipynb
 │
