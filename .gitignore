@@ -1,8 +1,21 @@
-# Python Virtual Environment
+# Python Virtual Environment & Bytecode
 backend/venv/
 venv/
 __pycache__/
+*.py[cod]
 
-# React / Node Dependencies
+# React / Node Dependencies & Frontend Build
 frontend/node_modules/
 frontend/dist/
+
+# Root Node Dependencies (VitePress)
+node_modules/
+
+# VitePress Cache and Build Outputs
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+dist/
+
+# Logs and OS files
+*.log
+.DS_Store
