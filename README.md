@@ -122,7 +122,7 @@ The training curves show a steady increase in training accuracy and a gradual de
 
 DINOv2 uses a frozen Vision Transformer backbone with a custom MLP classification head trained for the 314 scene categories.
 
-![DINOv2 Training Results](results/dinov2_main.png)
+![DINOv2 Training Results](results/dinov2_main-2.png)
 
 The DINOv2 training curves show rapid improvement in training accuracy during the initial epochs. Validation loss begins increasing while validation accuracy remains comparatively stable, motivating early stopping.
 
@@ -132,52 +132,7 @@ The DINOv2 training curves show rapid improvement in training accuracy during th
 
 The system processes an uploaded image through the React frontend and FastAPI backend before generating predictions from both models.
 
-```text
-                 ┌───────────────────────┐
-                 │   Local Image Upload  │
-                 │      React UI         │
-                 └───────────┬───────────┘
-                             │
-                             ▼
-                 ┌───────────────────────┐
-                 │  FastAPI Backend      │
-                 │      /predict         │
-                 └───────────┬───────────┘
-                             │
-                             ▼
-                 ┌───────────────────────┐
-                 │ PyTorch Preprocessing │
-                 │ Resize 256 × 256      │
-                 │ Center Crop 224 × 224 │
-                 │ ImageNet Normalize    │
-                 └───────────┬───────────┘
-                             │
-                    ┌────────┴────────┐
-                    ▼                 ▼
-          ┌────────────────┐   ┌────────────────────┐
-          │  MobileNetV2   │   │ DINOv2 (ViT-S/14) │
-          │ Fine-tuned CNN │   │ Frozen Transformer │
-          └───────┬────────┘   └──────────┬─────────┘
-                  │                       │
-                  └──────────┬────────────┘
-                             ▼
-                 ┌───────────────────────┐
-                 │ Softmax + torch.topk  │
-                 │     Top-5 Extraction  │
-                 └───────────┬───────────┘
-                             │
-                             ▼
-                 ┌───────────────────────┐
-                 │ Top-5 Predictions     │
-                 │ Confidence Scores     │
-                 └───────────┬───────────┘
-                             │
-                             ▼
-                 ┌───────────────────────┐
-                 │ React Comparison      │
-                 │ Dashboard             │
-                 └───────────────────────┘
-```
+![Pipeline Data Flow](/results/Picture2-forSceneClassification.png)
 
 ### Inference Process
 

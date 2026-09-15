@@ -6,7 +6,9 @@ export default defineConfig({
   description: "MobileNetV2 vs. DINOv2 Benchmark",
 
   appearance: false,
-
+  markdown: {
+    math: true,
+  },
   head: [
     [
       "style",
@@ -36,15 +38,18 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Project Report", link: "/project_report" },
+      { text: "Project Report", link: "/" },
+      { text: "Setup & Installation Guide", link: "/setup_and_installation" },
     ],
     sidebar: [
       {
-        text: "Project Overview",
+        text: "Project Navigation",
         items: [
-          { text: "Overview & Demo", link: "/" },
-          { text: "Detailed Project Report", link: "/project_report" },
+          { text: "Project Report", link: "/" },
+          {
+            text: "Setup & Installation Guide",
+            link: "/setup_and_installation",
+          },
         ],
       },
     ],
