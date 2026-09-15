@@ -1,4 +1,4 @@
-# Setup & Installation Guide
+# Setup & Installation
 
 **[← Back to Project Report](./index.md)**
 

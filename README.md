@@ -132,7 +132,7 @@ The DINOv2 training curves show rapid improvement in training accuracy during th
 
 The system processes an uploaded image through the React frontend and FastAPI backend before generating predictions from both models.
 
-![Pipeline Data Flow](/results/Picture2-forSceneClassification.png)
+![Pipeline Data Flow](/results/Picture2-forSceneClassification-2.png)
 
 ### Inference Process
 

@@ -39,7 +39,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Project Report", link: "/" },
-      { text: "Setup & Installation Guide", link: "/setup_and_installation" },
+      { text: "Setup & Installation", link: "/setup_and_installation" },
     ],
     sidebar: [
       {
@@ -47,7 +47,7 @@ export default defineConfig({
         items: [
           { text: "Project Report", link: "/" },
           {
-            text: "Setup & Installation Guide",
+            text: "Setup & Installation",
             link: "/setup_and_installation",
           },
         ],

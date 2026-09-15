@@ -7,7 +7,7 @@
 
 _Developed during an internship at EICT IIT Guwahati._
 
-**[View Setup and Installation Guide](./setup_and_installation.md)**  
+**[View Setup and Installation](./setup_and_installation.md)**  
 **[View Project GitHub Repository](https://github.com/Bhargav-Das-12/Scene_Classification)**
 
 ## 1. Introduction
