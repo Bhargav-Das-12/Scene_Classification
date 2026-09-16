@@ -1,6 +1,6 @@
 # Scene Classification
 
-_This project was developed during an internship at EICT IIT Guwahati under the guidance of Prithvijit Guha Sir._
+_This project was developed during an internship at IIT Guwahati under the guidance of Prof. Prithvijit Guha._
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange.svg)

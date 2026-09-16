@@ -2,10 +2,10 @@
 
 ## Project Guidance
 
-- **Mentors:** Parth Dhola Sir and Amaan Irfan Sir
+- **Mentors:** Parth Dhola and Amaan Irfan
 - **Faculty Advisor:** Prof. Prithwijit Guha
 
-_Completed as part of the internship program at EICT IIT Guwahati._
+_Completed as part of the internship program at IIT Guwahati._
 
 <style>
   .repo-btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border: 1px solid gray; border-radius: 6px; text-decoration: none !important; font-weight: bold; color: inherit !important; transition: all 0.2s ease; }
